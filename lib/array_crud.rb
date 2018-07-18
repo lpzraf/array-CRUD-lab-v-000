@@ -37,5 +37,6 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  
+    box = ["wow", "I", "am", "really", "learning", "arrays!"]
+    box[-1]
 end
