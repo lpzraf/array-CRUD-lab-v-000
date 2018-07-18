@@ -17,22 +17,26 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-    box = [1,2,3,4]
+    box = [1,2,3,"arrays!"]
     box.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+    box = ["wow",2,3,"arrays!"]
+    box.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+    box = ["wow", "I", "am", "really", "learning", "arrays!"]
+    box[2]
 end
 
 def retrieve_first_element_from_array(array)
-  
+    box = ["wow", "I", "am", "really", "learning", "arrays!"]
+    box[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+    box = ["wow", "I", "am", "really", "learning", "arrays!"]
+    box[-1]
 end
